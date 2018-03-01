@@ -1196,6 +1196,11 @@ Prefab:
       propertyPath: turnJoystick
       value: 
       objectReference: {fileID: 1627151669}
+    - target: {fileID: 114654389910285666, guid: e19dc2b70a6004c5db1b5a85c821f890,
+        type: 2}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e19dc2b70a6004c5db1b5a85c821f890, type: 2}
   m_IsPrefabParent: 0
