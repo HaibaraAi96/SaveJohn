@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/VirtualJoystick.cs">
+    <Files>
+      <File FileName="Assets/VirtualJoystick.cs" Line="46" Column="2" />
+      <File FileName="Assets/Scripts/Player/PlayerShooting.cs" Line="37" Column="15" />
+      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="57" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
