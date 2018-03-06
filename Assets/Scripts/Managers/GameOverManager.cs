@@ -4,7 +4,8 @@ public class GameOverManager : MonoBehaviour
 {
 	public PlayerHealth playerHealth;       // Reference to the player's health.
 	public float restartDelay = 5f;         // Time to wait before restarting the level
-
+	public int missionClearScore = 50;
+//	ScoreManager scoreManage;
 
 	Animator anim;                          // Reference to the animator component.
 	float restartTimer;                     // Timer to count up to restarting the level
@@ -34,6 +35,12 @@ public class GameOverManager : MonoBehaviour
 				// .. then reload the currently loaded level.
 				Application.LoadLevel(Application.loadedLevel);
 			}
+		}
+
+		if (ScoreManager.score >= missionClearScore) {
+//			pauseEnabled = true;
+			anim.SetTrigger ("MissionClear");
+			Time.timeScale = 0;
 		}
 	}
 }
