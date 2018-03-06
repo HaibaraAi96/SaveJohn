@@ -14,3 +14,4 @@ Temp/
 Library/PlayerDataCache/
 Library/ShaderCache/
 Temp/
+*.log
