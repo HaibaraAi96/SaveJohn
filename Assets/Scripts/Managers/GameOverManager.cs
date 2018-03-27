@@ -1,14 +1,19 @@
 ﻿using UnityEngine;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameOverManager : MonoBehaviour
 {
 	public PlayerHealth playerHealth;       // Reference to the player's health.
 	public float restartDelay = 5f;         // Time to wait before restarting the level
-	public int missionClearScore = 50;
+	public float nextLevelDelay = 5f;
+	public int missionClearScore = 10;
 //	ScoreManager scoreManage;
 
 	Animator anim;                          // Reference to the animator component.
 	float restartTimer;                     // Timer to count up to restarting the level
+	float nextLevelTimer;
 
 
 	void Awake ()
@@ -40,7 +45,28 @@ public class GameOverManager : MonoBehaviour
 		if (ScoreManager.score >= missionClearScore) {
 //			pauseEnabled = true;
 			anim.SetTrigger ("MissionClear");
-			Time.timeScale = 0;
+			nextLevelTimer += Time.deltaTime;
+			if(nextLevelTimer >= nextLevelDelay)
+			{
+				Application.LoadLevel("lv2");
+			}
+
+
+
+
+
+			//Time.timeScale = 0;
 		}
+	}
+	private IEnumerator FadeAndSwitchScenes (string sceneName)
+	{
+		yield return SceneManager.UnloadSceneAsync (SceneManager.GetActiveScene ().buildIndex);
+		yield return StartCoroutine (LoadSceneAndSetActive ("lv2"));
+	}
+	private IEnumerator LoadSceneAndSetActive (string sceneName)
+	{
+		yield return SceneManager.LoadSceneAsync (sceneName, LoadSceneMode.Additive);
+		Scene newlyLoadedScene = SceneManager.GetSceneAt (SceneManager.sceneCount - 1);
+		SceneManager.SetActiveScene (newlyLoadedScene);
 	}
 }
