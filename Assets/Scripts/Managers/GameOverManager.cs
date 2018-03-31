@@ -8,8 +8,9 @@ public class GameOverManager : MonoBehaviour
 	public PlayerHealth playerHealth;       // Reference to the player's health.
 	public float restartDelay = 5f;         // Time to wait before restarting the level
 	public float nextLevelDelay = 5f;
-	public int missionClearScore = 10;
-//	ScoreManager scoreManage;
+	public int missionClearScore = 50;
+	public int MAX_LEVEL = 1;
+	//	ScoreManager scoreManage;
 
 	Animator anim;                          // Reference to the animator component.
 	float restartTimer;                     // Timer to count up to restarting the level
@@ -41,23 +42,43 @@ public class GameOverManager : MonoBehaviour
 				Application.LoadLevel(Application.loadedLevel);
 			}
 		}
+		//		Debug.Log ("app" + Application.loadedLevel);
 
 		if (ScoreManager.score >= missionClearScore) {
-//			pauseEnabled = true;
+			//			pauseEnabled = true;
 			anim.SetTrigger ("MissionClear");
-			nextLevelTimer += Time.deltaTime;
-			if(nextLevelTimer >= nextLevelDelay)
-			{
-				Application.LoadLevel("lv2");
-			}
+			Debug.Log (Application.loadedLevel);
+			//			Application.loade
+			//			if (Application.loadedLevel == 1) {
+			//				Time.timeScale = 0;
+			//			}
+			//			Debug.Log ("aaaa" + Application.loadedLevel);
+			Invoke ("LevelSwitchPause", 1f);
+			//			nextLevelTimer += Time.deltaTime;
+			//			if(nextLevelTimer >= nextLevelDelay)
+			//			{
+			//				Application.LoadLevel(3);
+			//			}
+
+			//Debug.Log ("bb");
 
 
 
-
-
-			//Time.timeScale = 0;
 		}
 	}
+
+	public void LevelSwitchPause() {
+		//Debug.Log ("pause");
+		nextLevelTimer += Time.deltaTime;
+		Time.timeScale = 1;
+		if (nextLevelTimer >= nextLevelDelay && Application.loadedLevel < MAX_LEVEL) {
+			Application.LoadLevel ("lv2");
+		} 
+		else if(Application.loadedLevel == MAX_LEVEL) {
+			Time.timeScale = 0;
+		}
+	}
+
 	private IEnumerator FadeAndSwitchScenes (string sceneName)
 	{
 		yield return SceneManager.UnloadSceneAsync (SceneManager.GetActiveScene ().buildIndex);
