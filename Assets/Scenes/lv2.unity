@@ -288,7 +288,7 @@ MonoBehaviour:
   playerHealth: {fileID: 1576841138}
   restartDelay: 5
   nextLevelDelay: 5
-  missionClearScore: 50
+  missionClearScore: 500
   MAX_LEVEL: 1
 --- !u!95 &35676709
 Animator:
@@ -1730,7 +1730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1576841138}
   enemy: {fileID: 1256413641517798, guid: 5d9c39f39fd79451ca976e7e5c9efb6f, type: 2}
-  spawnTime: 5
+  spawnTime: 6
   spawnPoints:
   - {fileID: 2141245029}
 --- !u!114 &543320514
@@ -2646,7 +2646,7 @@ Transform:
   - {fileID: 619229842}
   - {fileID: 993211437}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &986066252
 GameObject:
@@ -2865,7 +2865,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 409160, guid: ad67cddd729fb4342be2063a3f5ad7cc, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 150350, guid: ad67cddd729fb4342be2063a3f5ad7cc, type: 2}
       propertyPath: m_IsActive
