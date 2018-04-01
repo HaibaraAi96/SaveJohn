@@ -1723,14 +1723,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 543320510}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76a99222b1e4a384e923ac7e86efc709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1576841138}
-  enemy: {fileID: 1100722602096378, guid: 442ab881c610247d982a049aa2fa0dcd, type: 2}
-  spawnTime: 3
+  enemy: {fileID: 1256413641517798, guid: 5d9c39f39fd79451ca976e7e5c9efb6f, type: 2}
+  spawnTime: 5
   spawnPoints:
   - {fileID: 2141245029}
 --- !u!114 &543320514
@@ -8604,7 +8604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141245029}
   m_Layer: 0
-  m_Name: ZombearSpawnPoint
+  m_Name: FireDevilSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
