@@ -7,6 +7,7 @@ public class GameOverManager : MonoBehaviour
 {
 	public PlayerHealth playerHealth;       // Reference to the player's health.
 	public float restartDelay = 5f;         // Time to wait before restarting the level
+	public float initialAnimationPlayTime = 10f;
 	public float nextLevelDelay = 5f;
 	public int missionClearScore = 50;
 	public int MAX_LEVEL = 1;
@@ -21,11 +22,21 @@ public class GameOverManager : MonoBehaviour
 	{
 		// Set up the reference.
 		anim = GetComponent <Animator> ();
+
+	
 	}
 
 
 	void Update ()
 	{
+//		restartTimer += Time.unscaledDeltaTime;
+//		if(restartTimer < initialAnimationPlayTime){
+//			Time.timeScale = 0;
+//		}
+//		else if(restartTimer >= initialAnimationPlayTime){
+//			Time.timeScale = 1;
+//		}
+//		Debug.Log ("asdasdsada"+Time.timeScale);
 		// If the player has run out of health...
 		if(playerHealth.currentHealth <= 0)
 		{
