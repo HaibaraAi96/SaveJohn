@@ -588,7 +588,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -594581171
+  randomSeed: 664395289
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4406,7 +4406,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 450234884
+  randomSeed: -293802830
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7848,7 +7848,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1382263619
+  randomSeed: -1158006496
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -11846,7 +11846,7 @@ MonoBehaviour:
   restartDelay: 5
   initialAnimationPlayTime: 10
   nextLevelDelay: 5
-  missionClearScore: 10
+  missionClearScore: 50
   MAX_LEVEL: 1
 --- !u!1001 &1025345802
 Prefab:
@@ -13521,7 +13521,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1033097904
+  randomSeed: 793876230
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -17129,7 +17129,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1302748463
+  randomSeed: -959320605
   InitialModule:
     serializedVersion: 3
     enabled: 1
