@@ -29,14 +29,17 @@ public class GameOverManager : MonoBehaviour
 
 	void Update ()
 	{
-//		restartTimer += Time.unscaledDeltaTime;
-//		if(restartTimer < initialAnimationPlayTime){
-//			Time.timeScale = 0;
-//		}
-//		else if(restartTimer >= initialAnimationPlayTime){
-//			Time.timeScale = 1;
-//		}
-//		Debug.Log ("asdasdsada"+Time.timeScale);
+		if (Application.loadedLevel < MAX_LEVEL) {
+			restartTimer += Time.unscaledDeltaTime;
+			if(restartTimer < initialAnimationPlayTime){
+				Time.timeScale = 0;
+			}
+			else if(restartTimer >= initialAnimationPlayTime){
+				Time.timeScale = 1;
+			}
+			Debug.Log ("asdasdsada"+Time.timeScale);
+		}
+
 		// If the player has run out of health...
 		if(playerHealth.currentHealth <= 0)
 		{
