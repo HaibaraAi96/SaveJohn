@@ -4112,6 +4112,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 0
 --- !u!224 &1075299889
 RectTransform:
@@ -4137,6 +4138,10 @@ RectTransform:
   m_IsActive: 1
 --- !u!114 &1129831266
 >>>>>>> parent of 7d3a776d... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
+=======
+  m_IsActive: 1
+--- !u!114 &1129831266
+>>>>>>> parent of b06b3cc6... button and bgm
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114380393720045750, guid: c28bcfdd68a2c474abe90232f40491a7,
