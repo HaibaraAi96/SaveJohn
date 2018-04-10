@@ -241,7 +241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 130, z: 0}
 --- !u!1 &109770900
 GameObject:
@@ -777,7 +777,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -253457567
+  randomSeed: 1322583214
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4811,7 +4811,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1420536467
+  randomSeed: -903263633
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -8253,7 +8253,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 129996555
+  randomSeed: 1094675234
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -11891,7 +11891,7 @@ RectTransform:
   - {fileID: 1274286121}
   - {fileID: 148425908}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12276,7 +12276,7 @@ MonoBehaviour:
   restartDelay: 5
   initialAnimationPlayTime: 10
   nextLevelDelay: 5
-  missionClearScore: 10
+  missionClearScore: 50
   MAX_LEVEL: 1
 --- !u!1001 &1025345802
 Prefab:
@@ -12825,34 +12825,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1ad60190470c8904c833f021be513271, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1181562956
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1181562957}
-  m_Layer: 0
-  m_Name: ZombunnySpawnPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1181562957
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1181562956}
-  m_LocalRotation: {x: 0, y: 0.9063079, z: 0, w: 0.42261827}
-  m_LocalPosition: {x: -20.5, y: 0, z: 12.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 130, z: 0}
 --- !u!1 &1274286117
 GameObject:
   m_ObjectHideFlags: 0
@@ -13619,9 +13591,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1462061960}
-  - component: {fileID: 1462061959}
   - component: {fileID: 1462061962}
-  - component: {fileID: 1462061961}
   - component: {fileID: 1462061963}
   m_Layer: 0
   m_Name: EnemyManager
@@ -13630,22 +13600,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1462061959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1462061958}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76a99222b1e4a384e923ac7e86efc709, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 167457890}
-  enemy: {fileID: 1855419639544266, guid: 33419c83c652a4e7e87b45a2453bc309, type: 2}
-  spawnTime: 3
-  spawnPoints:
-  - {fileID: 1181562957}
 --- !u!4 &1462061960
 Transform:
   m_ObjectHideFlags: 0
@@ -13659,22 +13613,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1462061961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1462061958}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76a99222b1e4a384e923ac7e86efc709, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 167457890}
-  enemy: {fileID: 1100992571629152, guid: 00e1147f0daee43b4ae4fed2613cbf9a, type: 2}
-  spawnTime: 10
-  spawnPoints:
-  - {fileID: 1574595247}
 --- !u!114 &1462061962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13687,7 +13625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 167457890}
-  enemy: {fileID: 1100722602096378, guid: 442ab881c610247d982a049aa2fa0dcd, type: 2}
+  enemy: {fileID: 1256413641517798, guid: 5d9c39f39fd79451ca976e7e5c9efb6f, type: 2}
   spawnTime: 3
   spawnPoints:
   - {fileID: 1637749211}
@@ -13896,34 +13834,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485561157}
---- !u!1 &1574595246
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1574595247}
-  m_Layer: 0
-  m_Name: HellephantSpawnPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1574595247
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1574595246}
-  m_LocalRotation: {x: 0, y: 0.9063079, z: -0, w: -0.42261827}
-  m_LocalPosition: {x: 0, y: 0, z: 32}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 230, z: 0}
 --- !u!1001 &1591316642
 Prefab:
   m_ObjectHideFlags: 0
@@ -14095,7 +14005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637749211}
   m_Layer: 0
-  m_Name: ZombearSpawnPoint
+  m_Name: FireDevilSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -14112,7 +14022,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 240, z: 0}
 --- !u!1 &1651686542 stripped
 GameObject:
@@ -14336,7 +14246,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1171570958
+  randomSeed: 1895127336
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -18020,7 +17930,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1269853018
+  randomSeed: 1055359247
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -21754,7 +21664,7 @@ Transform:
   - {fileID: 1450673834}
   - {fileID: 1343346887}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1972859684 stripped
 Transform:
