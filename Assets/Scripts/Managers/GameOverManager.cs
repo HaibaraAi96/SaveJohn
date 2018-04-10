@@ -16,6 +16,7 @@ public class GameOverManager : MonoBehaviour
 	Animator anim;                          // Reference to the animator component.
 	float restartTimer;                     // Timer to count up to restarting the level
 	float nextLevelTimer;
+	float storyTimer;
 
 
 	void Awake ()
@@ -30,14 +31,14 @@ public class GameOverManager : MonoBehaviour
 	void Update ()
 	{
 		if (Application.loadedLevel < MAX_LEVEL) {
-			restartTimer += Time.unscaledDeltaTime;
-			if(restartTimer < initialAnimationPlayTime){
+			storyTimer += Time.unscaledDeltaTime;
+			if(storyTimer < initialAnimationPlayTime){
 				Time.timeScale = 0;
 			}
-			else if(restartTimer >= initialAnimationPlayTime){
+			else if(storyTimer >= initialAnimationPlayTime){
 				Time.timeScale = 1;
 			}
-			Debug.Log ("asdasdsada"+Time.timeScale);
+			//Debug.Log ("asdasdsada"+Time.timeScale);
 		}
 
 		// If the player has run out of health...

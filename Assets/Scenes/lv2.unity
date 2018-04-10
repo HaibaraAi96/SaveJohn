@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18029505, g: 0.22572652, b: 0.30692935, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -4778,7 +4778,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 840575353
+  randomSeed: -416947556
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -8049,7 +8049,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 7364196ec911a004c95d1d81bec4e829, type: 3}
+  m_Texture: {fileID: 2800000, guid: b6634e0207c244b41957c119412d50be, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -8631,7 +8631,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 47839543
+  randomSeed: -2119612376
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -11988,7 +11988,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: a8c7a3b6d11009d4f896016ee504671a, type: 3}
+  m_Texture: {fileID: 2800000, guid: a4a7e0a246e66422fb225a59f8269d59, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
