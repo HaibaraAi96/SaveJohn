@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -105,3 +106,5 @@ public class GameOverManager : MonoBehaviour
 		SceneManager.SetActiveScene (newlyLoadedScene);
 	}
 }
+=======
+>>>>>>> fd4394e286baa58fedb01ff61c39704e319632cd
