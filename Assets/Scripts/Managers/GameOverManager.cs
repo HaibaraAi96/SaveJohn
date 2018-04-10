@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,7 +7,7 @@ public class GameOverManager : MonoBehaviour
 {
 	public PlayerHealth playerHealth;       // Reference to the player's health.
 	public float restartDelay = 5f;         // Time to wait before restarting the level
-	public float initialAnimationPlayTime = 10f;
+	public float initialAnimationPlayTime = 9f;
 	public float nextLevelDelay = 5f;
 	public int missionClearScore = 50;
 	public int MAX_LEVEL = 1;
@@ -61,7 +60,13 @@ public class GameOverManager : MonoBehaviour
 
 		if (ScoreManager.score >= missionClearScore) {
 			//			pauseEnabled = true;
-			anim.SetTrigger ("MissionClear");
+			//anim.SetTrigger ("MissionClear");
+			if(Application.loadedLevel < MAX_LEVEL){
+				anim.SetTrigger("MissionClear");
+			}
+			else{
+				anim.SetTrigger("GameFinish");
+			}
 			Debug.Log (Application.loadedLevel);
 			//			Application.loade
 			//			if (Application.loadedLevel == 1) {
@@ -106,5 +111,3 @@ public class GameOverManager : MonoBehaviour
 		SceneManager.SetActiveScene (newlyLoadedScene);
 	}
 }
-=======
->>>>>>> fd4394e286baa58fedb01ff61c39704e319632cd
