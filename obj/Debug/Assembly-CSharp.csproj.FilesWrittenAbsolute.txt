@@ -98,6 +98,7 @@
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
+<<<<<<< HEAD
 /Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/obj/Debug/Assembly-CSharp.dll
@@ -148,3 +149,5 @@
 /Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
 /Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
 /Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
+=======
+>>>>>>> 207ad6f5145d6df9c59e8f4ab687efc6e272c0be
