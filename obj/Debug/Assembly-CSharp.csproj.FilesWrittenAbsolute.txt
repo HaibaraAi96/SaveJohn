@@ -48,7 +48,6 @@
 /Users/AlwaysBeBetter/Desktop/SaveJohn-Qifan/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/AlwaysBeBetter/Desktop/SaveJohn-Qifan/obj/Debug/Assembly-CSharp.dll
 /Users/AlwaysBeBetter/Desktop/SaveJohn-Qifan/obj/Debug/Assembly-CSharp.dll.mdb
-<<<<<<< HEAD
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/obj/Debug/Assembly-CSharp.dll
@@ -99,58 +98,3 @@
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
-<<<<<<< HEAD
-=======
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Assembly-CSharp.dll.mdb
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Assembly-CSharp.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/obj/Debug/Assembly-CSharp.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/obj/Debug/Assembly-CSharp.dll.mdb
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.UIAutomation.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.UIAutomation.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.TestRunner.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.TestRunner.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/nunit.framework.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.Networking.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.Networking.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.UI.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.UI.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.Timeline.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.Timeline.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.TreeEditor.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.HoloLens.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.HoloLens.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.SpatialTracking.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.VR.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.Graphs.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.Android.Extensions.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.Advertisements.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.Advertisements.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.Analytics.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.Analytics.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.Purchasing.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.Purchasing.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEngine.StandardEvents.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.Cecil.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.SerializationLogic.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.DataContract.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/ExCSS.Unity.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.Legacy.NRefactory.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.UNetWeaver.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.CecilTools.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.Cecil.Pdb.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/Unity.Cecil.Mdb.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
-/Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
->>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
-=======
->>>>>>> parent of 47609f97... Revert "reposition PA button"
