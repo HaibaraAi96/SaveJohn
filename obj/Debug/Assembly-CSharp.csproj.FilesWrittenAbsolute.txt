@@ -48,6 +48,7 @@
 /Users/AlwaysBeBetter/Desktop/SaveJohn-Qifan/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/AlwaysBeBetter/Desktop/SaveJohn-Qifan/obj/Debug/Assembly-CSharp.dll
 /Users/AlwaysBeBetter/Desktop/SaveJohn-Qifan/obj/Debug/Assembly-CSharp.dll.mdb
+<<<<<<< HEAD
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/AlwaysBeBetter/Documents/GitHub/SaveJohn/obj/Debug/Assembly-CSharp.dll
@@ -151,3 +152,5 @@
 /Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
 /Users/AlwaysBeBetter/Desktop/SaveJohn-526 3/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
 >>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
+=======
+>>>>>>> parent of 47609f97... Revert "reposition PA button"

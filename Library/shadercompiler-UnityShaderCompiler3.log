@@ -3467,6 +3467,7 @@ Cmd: compileSnippet
 =======
 Cmd: compileComputeKernel
 <<<<<<< HEAD
+<<<<<<< HEAD
   api=14 insize=1386 outsize=6261 ok=1
 Cmd: translateComputeKernel
   api=14 insize=7277 outsize=3193 ok=1
@@ -3488,6 +3489,19 @@ Cmd: compileComputeKernel
 =======
   api=14 insize=1484 outsize=7289 ok=1
 Cmd: translateComputeKernel
+=======
+  api=15 insize=1386 outsize=3385 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=3182 outsize=6837 ok=1
+Cmd: compileComputeKernel
+  api=15 insize=3182 outsize=3597 ok=1
+Cmd: compileComputeKernel
+<<<<<<< HEAD
+  api=15 insize=1484 outsize=5373 ok=1
+=======
+  api=14 insize=1484 outsize=7289 ok=1
+Cmd: translateComputeKernel
+>>>>>>> parent of 47609f97... Revert "reposition PA button"
   api=14 insize=7289 outsize=3561 ok=1
 Cmd: translateComputeKernel
   api=14 insize=7085 outsize=3141 ok=1
@@ -3505,4 +3519,7 @@ Cmd: translateComputeKernel
 
 Quitting shader compiler process
 >>>>>>> 970d0e518495e292b3c55c29ca6812d5403c24fe
+<<<<<<< HEAD
 >>>>>>> parent of e657d238... update
+=======
+>>>>>>> parent of 47609f97... Revert "reposition PA button"

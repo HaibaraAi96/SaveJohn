@@ -5,13 +5,10 @@ using System.Collections;
 
 public class GameOverManager : MonoBehaviour
 {
-	public GameObject SOMenuUI;
-	public GameObject PauseMenuUI;
-
 	public PlayerHealth playerHealth;       // Reference to the player's health.
 	public float restartDelay = 5f;         // Time to wait before restarting the level
 	public float initialAnimationPlayTime = 9f;
-	public float nextLevelDelay = 0f;
+	public float nextLevelDelay = 5f;
 	public int missionClearScore = 50;
 	public int MAX_LEVEL = 1;
 	//	ScoreManager scoreManage;
@@ -35,14 +32,12 @@ public class GameOverManager : MonoBehaviour
 	{
 		if (Application.loadedLevel < MAX_LEVEL) {
 			storyTimer += Time.unscaledDeltaTime;
-
-			/****if(storyTimer < initialAnimationPlayTime){
-				Time.timeScale = 0000001f;
+			if(storyTimer < initialAnimationPlayTime){
+				Time.timeScale = 0;
 			}
 			else if(storyTimer >= initialAnimationPlayTime){
-				Time.timeScale = 1f;
-			}*****/
-
+				Time.timeScale = 1;
+			}
 			//Debug.Log ("asdasdsada"+Time.timeScale);
 		}
 
@@ -69,14 +64,11 @@ public class GameOverManager : MonoBehaviour
 			//anim.SetTrigger ("MissionClear");
 			if(Application.loadedLevel < MAX_LEVEL){
 				anim.SetTrigger("MissionClear");
-				//Time.timeScale = 0f;
 			}
 			else{
 				anim.SetTrigger("GameFinish");
-				//SOMenuUI.SetActive (true);
-				//Time.timeScale = 0f;
 			}
-			//Debug.Log (Application.loadedLevel);
+			Debug.Log (Application.loadedLevel);
 			//			Application.loade
 			//			if (Application.loadedLevel == 1) {
 			//				Time.timeScale = 0;
@@ -90,21 +82,21 @@ public class GameOverManager : MonoBehaviour
 			//			}
 
 			//Debug.Log ("bb");
+
+
+
 		}
 	}
 
 	public void LevelSwitchPause() {
 		//Debug.Log ("pause");
 		nextLevelTimer += Time.deltaTime;
-		////Time.timeScale = 1f;
+		Time.timeScale = 1;
 		if (nextLevelTimer >= nextLevelDelay && Application.loadedLevel < MAX_LEVEL) {
 			Application.LoadLevel ("lv2");
 		} 
 		else if(Application.loadedLevel == MAX_LEVEL) {
-			SOMenuUI.SetActive (true);
-			PauseMenuUI.SetActive (false);
-			Time.timeScale = 0f;
-			//Debug.Log (Time.timeScale);
+			Time.timeScale = 0;
 		}
 	}
 
@@ -118,12 +110,5 @@ public class GameOverManager : MonoBehaviour
 		yield return SceneManager.LoadSceneAsync (sceneName, LoadSceneMode.Additive);
 		Scene newlyLoadedScene = SceneManager.GetSceneAt (SceneManager.sceneCount - 1);
 		SceneManager.SetActiveScene (newlyLoadedScene);
-	}
-
-	public void PlayAgain () {
-		SOMenuUI.SetActive (false);
-		Application.LoadLevel ("lv1");
-		//Time.timeScale = 1f;
-		Debug.Log ("finished");
 	}
 }
