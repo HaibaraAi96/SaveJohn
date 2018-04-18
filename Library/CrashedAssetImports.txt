@@ -1,1 +1,1 @@
-Assets/PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Albedo.tga
+Assets/HQ Leather Sofa/Files/sofa[AO].tga
