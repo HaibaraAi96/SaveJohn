@@ -3,17 +3,22 @@
 public class PlayerMovement : MonoBehaviour
 {
 	public float speed = 6f;            // The speed that the player will move at.
+	public VirtualJoystick moveJoystick;
+	public VirtualJoystick turnJoystick;
 
 	Vector3 movement;                   // The vector to store the direction of the player's movement.
 	Animator anim;                      // Reference to the animator component.
 	Rigidbody playerRigidbody;          // Reference to the player's rigidbody.
 	int floorMask;                      // A layer mask so that a ray can be cast just at gameobjects on the floor layer.
 	float camRayLength = 100f;          // The length of the ray from the camera into the scene.
+	GameObject player;
+
 
 	void Awake ()
 	{
 		// Create a layer mask for the floor layer.
 		floorMask = LayerMask.GetMask ("Floor");
+		player = GameObject.FindGameObjectWithTag ("Player");
 
 		// Set up references.
 		anim = GetComponent <Animator> ();
@@ -23,18 +28,32 @@ public class PlayerMovement : MonoBehaviour
 
 	void FixedUpdate ()
 	{
+		Vector3 dir = Vector3.zero;
+
+		dir.x = Input.GetAxis ("Horizontal");
+		dir.z = Input.GetAxis ("Vertical");
+
+		if (dir.magnitude > 1)
+			dir.Normalize ();
+		
+		if (moveJoystick.InputDirection != Vector3.zero) {
+			dir = moveJoystick.InputDirection;
+		}
+
 		// Store the input axes.
-		float h = Input.GetAxisRaw ("Horizontal");
-		float v = Input.GetAxisRaw ("Vertical");
+		/*float h = Input.GetAxisRaw ("Horizontal");
+		float v = Input.GetAxisRaw ("Vertical");*/
 
 		// Move the player around the scene.
-		Move (h, v);
+		//Move (h, v);
+		Move(dir.x,dir.z);
 
 		// Turn the player to face the mouse cursor.
-		Turning ();
+		//Turning ();
+		newTurning();
 
 		// Animate the player.
-		Animating (h, v);
+		Animating (dir.x, dir.z);
 	}
 
 	void Move (float h, float v)
@@ -47,6 +66,25 @@ public class PlayerMovement : MonoBehaviour
 
 		// Move the player to it's current position plus the movement.
 		playerRigidbody.MovePosition (transform.position + movement);
+	}
+
+	void newTurning ()
+	{
+		Vector3 dir = Vector3.zero;
+		Vector3 inputv = Vector3.zero;
+
+		if (dir.magnitude > 1)
+			dir.Normalize ();
+
+		if (turnJoystick.InputDirection != Vector3.zero) {
+			dir = turnJoystick.InputDirection;
+			dir.Normalize ();
+			dir *= 10;
+			Quaternion newRotation = Quaternion.LookRotation (dir);
+
+			// Set the player's rotation to this new rotation.
+			playerRigidbody.MoveRotation (newRotation);
+		}
 	}
 
 	void Turning ()

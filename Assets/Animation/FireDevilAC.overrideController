@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FireDevilAC
+  m_Controller: {fileID: 9100000, guid: 2dd530c7644e440f4b1fed74a0c4a1e1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d6508f052cbfe874889372d3527c0635, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 965a5de14659be64094e840aad7609eb, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 71680b2f150868448ba1ca88da029339, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: c9a851438855582499831507f0b6db3e, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 7aca8c99c4974de45a247e5e9d6b41f3, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 75bf79f8876829a44bb388ccd90400a7, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 132ac95d6cba40844a21e9bfe165fb27, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: ffac4ad5d7aac3c4db0e91f405efbdad, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 160601c2dabf7e343877e45a434b0912, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 188e21f92c97069429e7bd108ada4bb5, type: 3}
