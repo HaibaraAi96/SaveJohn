@@ -241,7 +241,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 14
+=======
+  m_RootOrder: 15
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
   m_LocalEulerAnglesHint: {x: 0, y: 130, z: 0}
 --- !u!1 &109770900
 GameObject:
@@ -390,7 +394,11 @@ GameObject:
   - component: {fileID: 148425906}
   - component: {fileID: 148425905}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: StartGame
+=======
+  m_Name: TPPStart
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -436,7 +444,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 834046314}
+<<<<<<< HEAD
         m_MethodName: StartGame
+=======
+        m_MethodName: TPP
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -497,8 +509,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 300}
+=======
+  m_AnchoredPosition: {x: 0, y: 150}
+  m_SizeDelta: {x: 400, y: 200}
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &166367646
 GameObject:
@@ -4185,8 +4202,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchoredPosition: {x: 0, y: -25}
+  m_SizeDelta: {x: 0, y: -50}
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &296126734
 MonoBehaviour:
@@ -4200,7 +4222,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+=======
+  m_Color: {r: 0.048821356, g: 0.20394346, b: 0.9485294, a: 1}
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4209,10 +4235,17 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
+=======
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -4220,13 +4253,25 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
+<<<<<<< HEAD
   m_Text: 
+=======
+  m_Text: (TPP EAZY MODE)
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
 --- !u!222 &296126735
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 296126732}
+<<<<<<< HEAD
+=======
+--- !u!1 &298898881 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1523804359505380, guid: e19dc2b70a6004c5db1b5a85c821f890,
+    type: 2}
+  m_PrefabInternal: {fileID: 1025345802}
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
 --- !u!1 &298937643
 GameObject:
   m_ObjectHideFlags: 0
@@ -11890,8 +11935,14 @@ RectTransform:
   - {fileID: 1923015645}
   - {fileID: 1274286121}
   - {fileID: 148425908}
+<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 15
+=======
+  - {fileID: 1119760936}
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11911,7 +11962,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 1274286117}
   ResumeMenuUI: {fileID: 1923015642}
+<<<<<<< HEAD
   SGMenuUI: {fileID: 148425904}
+=======
+  FPPMenuUI: {fileID: 1119760932}
+  TPPMenuUI: {fileID: 148425904}
+  FPPCamera: {fileID: 433040850}
+  TPPCamera: {fileID: 750074589}
+  PlayerAvatar: {fileID: 298898881}
+  PlayerMenuUI: {fileID: 167457883}
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
 --- !u!1 &867780192 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 129596, guid: 1ad60190470c8904c833f021be513271, type: 2}
@@ -14022,7 +14082,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 240, z: 0}
 --- !u!1 &1651686542 stripped
 GameObject:
@@ -21664,7 +21724,11 @@ Transform:
   - {fileID: 1450673834}
   - {fileID: 1343346887}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 16
+=======
+  m_RootOrder: 17
+>>>>>>> parent of e48674b2... Merge branch '526' of https://github.com/lovolLiu/SaveJohn into 526
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1972859684 stripped
 Transform:
